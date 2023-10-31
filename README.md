@@ -1,4 +1,4 @@
-## Register Page
+## Welcome Page
 - User registration form with fields for entering a username, email address, and password.
 - Validation checks to ensure the entered data is correct.
 - Option to submit the registration form and create a new account.
