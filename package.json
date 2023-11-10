@@ -5,6 +5,7 @@
     "hardhat": "^2.18.3"
   },
   "dependencies": {
+    "ether": "^0.0.9",
     "ethers": "^6.8.1",
     "web3modal": "^1.9.12"
   }
