@@ -49,6 +49,21 @@ const NavBar = () => {
                 <Image src={images.logo} alt="logo" width={50} height={50}}/>
                 </div>
             <div className={Style.Navbar_box_right}>
+             [* //DESKTOP */]
+             ‹div className-{Style.Navar box right menu)> c/div
+             {/* //MOBILE */} (open && (
+             ‹div cLassName= Style. NavBar box right menuls </div>
+             {menuItems.map ( (el, i) => (
+              <div
+             onCLick={() =› setActive(i + 1)}
+              key=f1 + 1}
+             cLassName-${Style.mobile_menu_items) ${
+              active == i + 1 ? Style.active_btn :
+               18 11
+               }7*
+         <Link cLassName-Style.mobile_menu_items_link) href-(el.link)> {el.menu}
+          </Link>
+             
                 <div className={Style.Navbar_box_right_menu}>
                     {menuItems.map((el, i)=> ( 
                     <div onClick={()=> setActive(i+1) key={1+1} 
