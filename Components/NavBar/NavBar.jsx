@@ -1,6 +1,7 @@
 import React from "react";
 
-import Style from "./NaBar.module.css";
+//INTERNAL IMPORT
+import Style from "./NavBar.module.css";
 
 const NavBar =() => {
   return <div></div>;
