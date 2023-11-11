@@ -1,8 +1,14 @@
-import React from 'react';
+import React from "react";
+import Style from "./Error.module.css";
 
-const Error = () => {
-    return(
-        <div></div>;
+const Error = ({error}) => {
+    return (
+        <div className={Style.Error}>
+            <div className={Style.Error_box}>
+                <h1>Oops... Something went wrong</h1>
+                {error}
+            </div>
+        </div>
     )
 };
 
