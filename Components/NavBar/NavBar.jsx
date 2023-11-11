@@ -1,6 +1,8 @@
-import React from react, { useEffect, useState, useContext } from "react";
-import Image from "next/image";
-import link from "link/image";
+import React from "react";
 
+import Style from "./NaBar.module.css";
 
+const NavBar =() => {
+  return <div></div>;
+};
 export default NavBar;
